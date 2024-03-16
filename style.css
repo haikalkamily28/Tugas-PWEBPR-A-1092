@@ -1,0 +1,836 @@
+body{
+    font-family: poppins;
+    margin: 0;
+}
+.navbar{
+    background-color: #D9D9D9;
+    gap: 40px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 15px;
+    width:100%;
+}
+.navbar a{
+    text-decoration:none;
+    color: black;
+    font-weight:500;
+}
+
+.header{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+.header p{
+    display:flex;
+    justify-content:center;
+}
+
+main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.container{
+    width:1281px;
+    height:1300px;
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    justify-content:center;
+}
+
+.container1{
+    display:flex;
+    flex-direction:column;
+    width:490px;
+    gap:20px;
+    /* background-color:green; */
+}
+
+.container2{
+    display:flex;
+    flex-direction:column;
+    width:500px;
+    gap:20px;
+    /* background-color:salmon; */
+}
+
+.tentara{
+    display:flex;
+    flex-direction:row;
+    width:490px;
+    height:180px;
+    border-radius:20px;
+    background-color:#D5FFDD;
+}
+
+.tentara a{
+    background-color:#399349;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:240px;
+    height:37px;
+    border-radius:15px;
+    margin-top:130px;
+    margin-left:-150px;
+    text-decoration:none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+.pilihtentara p{ 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.tentara img{
+    height:230px;
+    margin-top:-50px;
+}
+
+.tentara h5{
+    font-size:32px;
+    font-weight:500;
+    margin-top:10px;
+    height:5px;
+}
+
+.tentara p{
+    font-size:14px;
+    font-weight:500;
+    height:30px;
+    line-height:21px;
+    margin-top:60px;
+    margin-left:-125px;
+}
+
+.grup {
+    display:flex;
+    gap:20px;
+}
+
+.jobs{
+    display:flex;
+    flex-direction:column;  
+    gap:20px;
+}
+
+.fotografer{
+    width:230px;
+    height:394px;
+    border-radius:15px;
+    background-color:#E2F2FF;
+
+}
+
+.fotografer img{
+    margin-top:40px;
+    margin-left:34px;
+}
+
+.fotografer h3{
+    text-align: center;
+    margin-top: 4px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+
+
+}
+
+.fotografer h6{
+    /* Fotografer adalah orang yang suka memfoto */
+
+
+width: 133px;
+height: 54px;
+margin-top: 20px;
+margin-left: 48px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.fotografer a{
+    position: absolute;
+    background-color:#3279AF;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:173px;
+    height:37px;
+    border-radius:15px;
+    margin-top: -15px;
+    margin-left:30px;
+    text-decoration:none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.kuli {
+    width:235px;
+    height:180px;
+    background-color:#FFF4DC;
+    border-radius:15px;
+}
+
+.kuli img{
+    margin-top:10px;
+    margin-left:30px;
+}
+
+.kuli a{
+    position: absolute;
+    background-color:#E29A00;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:173px;
+    height:37px;
+    border-radius:15px;
+    margin-top:-53px;
+    margin-left:30px;
+    text-decoration:none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pramugari {
+    width:235px;
+    height:180px;
+    background-color:#FFCED7;
+    border-radius:15px;
+    margin-top: 14px;
+}
+
+.pramugari img{
+    margin-top:10px;
+    margin-left:30px;
+}
+
+.pramugari a{
+    position: absolute;
+    background-color:#FF5573;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:173px;
+    height:37px;
+    border-radius:15px;
+    margin-top:-53px;
+    margin-left:30px;
+    text-decoration:none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.atas{
+    width:500px;
+    height:392px;
+    background-color:#F4F4F4;
+    border-radius:15px;
+    gap:18px;
+}
+
+.dokter{
+    box-sizing: border-box;
+    position: flex;
+    width: 423px;
+    height: 96px;
+    margin-left: 35px;
+    margin-top: 24px;
+    background: #FFFFFF;
+    border: 1px solid #D8D6C1;
+    border-radius: 20px;
+}
+.dokter img{
+    width: 75px;
+    height: auto;
+    margin-top: 7px;
+}
+.dokter h1{
+
+
+    margin-top: -62px;
+    margin-left: 77px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+
+
+}
+
+.dokter a{
+    position: absolute;
+    background-color: #D8D6C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 149px;
+    height: 22px;
+    border-radius:10px;
+    margin-top: -12px;
+    margin-left: 76px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    
+    color: #FFFFFF;
+}
+.pilot{
+    box-sizing: border-box;
+    position: flex;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid #D8D6C1;
+    width: 423px;
+    height: 96px;
+    margin-left: 35px;
+    margin-top: 24px;
+}
+.pilot h2{
+    margin-top: -62px;
+    margin-left: 77px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+color: #000000;
+}
+.pilot a{
+    position: absolute;
+    background-color: #D8D6C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 149px;
+    height: 22px;
+    border-radius:10px;
+    margin-top: -12px;
+    margin-left: 76px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    
+    color: #FFFFFF;
+}
+.pilot img{
+    width: 70px;
+    height: auto;
+    margin-top: 11px;
+    margin-left: 2px;
+}
+.ilmuan{
+    box-sizing: border-box;
+    position: flex;
+    background: #FFFFFF;
+    width: 423px;
+    height: 96px;
+    margin-top: 24px;
+    margin-left: 35px;
+    border-radius: 20px;
+    border: 1px solid #D8D6C1;
+}
+.ilmuan img{
+    width: 70px;
+    height: auto;
+    margin-top:12px;
+    margin-left: 8px;
+}
+.ilmuan h3{
+    margin-top: -62px;
+    margin-left: 77px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.ilmuan a{
+    position: absolute;
+    background-color: #D8D6C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 149px;
+    height: 22px;
+    border-radius:10px;
+    margin-top: -12px;
+    margin-left: 76px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    
+    color: #FFFFFF;
+}
+.bawah{
+    width:500px;
+    height:181px;
+    background-color:#F2F2F2;
+    border-radius:15px;
+}
+.pembalap img{
+    width: 130px;
+    margin-top: 22px;
+    margin-left: 12px;
+}
+.pembalap a{
+    position: absolute;
+    background-color: #D8D6C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 55px;
+    border-radius:10px;
+    margin-top: -62px;
+    margin-left: 145px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    
+    color: #FFFFFF; 
+}
+.pembalap h1{
+    margin-top: -98px;
+    margin-left: 147px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.astronout img{
+    width: 130px;
+    margin-top: -78px;
+    margin-left: 250px;
+}
+.astronout a{
+    position: absolute;
+    background-color: #D8D6C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 55px;
+    border-radius:10px;
+    margin-top: -63px;
+    margin-left: 377px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    
+    color: #FFFFFF; 
+}
+
+.astronout h1{
+    margin-top: -98px;
+    margin-left: 377px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 1279px) {
+    .navbar {
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        overflow: hidden;
+        z-index:3;
+    }
+
+    .header {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 60px;
+        position: sticky;
+    }
+
+    .header p {
+        display: flex;
+        justify-content: center;
+        position: sticky;
+    }
+
+    .container {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        margin-top:800px;
+        gap:40px;
+        margin-bottom:1000px;
+    }
+
+    .container1 {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        gap:40px;
+    }
+
+
+    .tentara {
+        width:289px;
+        height: 347px;
+        margin-top: -100px;
+    }
+
+    .tentara img {
+        width:230px;
+        margin-left:30px;
+        margin-top:-50px;
+    }
+
+    .tentara a {
+        width:212.41px;
+        margin-top:160px;
+        margin-left:-185px;
+        font-size:20px;
+        width: 212.41px;
+        height: 45.43px;
+    }
+
+    .tentara h5 {
+        font-size:20px;
+        margin-top:210px;
+        margin-left:-150px;
+    }
+
+    .tentara p {
+        margin-top:240px;
+        margin-left:-110px;
+    }
+
+    .grup {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        width:288.53px;
+        gap:90px;
+    }
+
+    .jobs {
+        gap:40px;
+    }
+
+    .kuli {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:288.53px;
+        height:221px;
+    }
+
+    .kuli img {
+        margin-left:-1px;
+        width: 213.26px;
+        height: 208.72px;
+    }
+
+    .kuli a {
+        margin-left:-1px;
+        margin-top:155px;
+        font-size:20px;
+        width: 212.41px;
+        height: 45.43px;
+    }
+
+    .pramugari {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:289px;
+        height:221px;
+    }
+
+    .pramugari img {
+        width: 213.26px; 
+        margin-left:-1px;
+        height: 208.72px;
+        top: 107px;
+    }
+
+    .pramugari a {
+        margin-left:-1px;
+        margin-top:155px;
+        z-index:0;
+        font-size:20px;
+        width: 212.41px;
+        height: 45.43px;
+    }
+
+    .fotografer {
+        width:289px;
+        height:314px;
+    }
+
+    .fotografer img {
+        width: 230px;
+        height: 230px;
+        left: 97px;
+        top: 1058px;
+        margin-top: -35px;
+    }
+
+    .fotografer a {
+        margin-top: -120px;
+        font-size:20px;
+        width: 212.41px;
+        height: 45.43px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 42px;
+    }
+
+    .fotografer h3 {
+        position: sticky;
+        margin-top: 30px;
+        margin-left: 10px;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: 500;
+    
+    }
+
+    .fotografer p {
+        position: sticky;
+        width: 169px;
+        margin-top: -20px;
+        font-size: 12px;
+        margin-left: 68px;
+    }
+
+    .fotografer h6{
+
+    position: absolute;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: -24px;
+    margin-left: 82px;
+
+    }
+
+    .container2 {
+        gap:40px;
+    }
+
+    .atas {
+        background-color:white;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        height:auto;
+        gap:40px;
+    }
+
+    .dokter, .pilot, .ilmuan{
+        border:0px;
+        width:289px;
+        height:221px;
+        background-color:#E9E8E2;
+
+        margin-left: -2px;
+    }
+
+    .dokter h1 {
+        display: none;
+    }
+
+    .pilot h2{
+        display: none;
+    }
+
+    .ilmuan h3{
+        display: none;
+    }
+    .atas h1{
+        z-index:-1;
+    }
+    
+    .atas h2{
+        z-index:-1;
+    }
+
+    .atas h1{
+        z-index:-1;
+    }
+    .atas img{
+        width:213px;
+        height:213px;
+        position:absolute;
+        margin-top:12px;
+        margin-left:40px;
+    }
+
+    .atas a{
+        position:absolute;
+        margin-top:160px;
+        margin-left:40px;
+        font-size:20px;
+        width: 212.41px;
+        height: 45.43px;
+    }
+
+    .bawah{
+        display:flex;
+        flex-direction:column;
+        background-color:white;
+        height:auto;
+        gap:40px;
+    }
+
+    .bawah h1{
+        z-index:-1;
+    }
+
+    .pembalap a{
+        position:absolute;
+        margin-top:160px;
+        margin-left:4px;
+        font-size:20px;
+        width: 212.41px;
+        height: 45.43px;
+        background-color:#E36415;
+    }
+
+    .pembalap{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:#FFDBC5;
+        border-radius:15px;
+        width:289px;
+        height:223px;
+        margin-left: 104px;
+        margin-top: 16px;
+    }
+    
+    .pembalap img{
+        width:213px;
+        height:213px;
+        position:absolute;
+        margin-top:12px;
+        margin-left:1px;
+    }
+
+    .astronout{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:#FFDBC5;
+        border-radius:15px;
+        width:289px;
+        height:223px;
+        margin-left: 104px;
+        margin-top: 16px;
+        background-color:#8FC5ED;
+    }
+
+    .astronout a{
+        position:absolute;
+        margin-top:160px;
+        margin-left:4px;
+        font-size:20px;
+        width: 212.41px;
+        height: 45.43px;
+        background-color:#275E87;
+    }
+
+    .astronout img{
+        width:213px;
+        height:213px;
+        position:absolute;
+        margin-top:12px;
+        margin-left:4px;
+    }
+}
